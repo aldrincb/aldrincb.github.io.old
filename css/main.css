@@ -32,34 +32,50 @@ section {
 	margin: 8px;
 }
 
+.navbar-right-text li:hover {
+	color: #AAAAAA;
+}
+
 .hello {
-    width: 300px;
-    height: 200px;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    margin: -100px 0 0 -150px;
+	width: 50%;
+	min-width: 250px;
+	height: 150px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin: -150px 0 0 -25%;
 }
 
 .hello-profile-picture {
-	display: inline-block;
-	width: 40%;
+	height: 100%;
 }
 
 .hello-image {
-	width: 100%;
-	height: auto;
-	border-radius: 50%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	height: 150px;
+	width: auto;
+	border-radius: 75px;
+	margin-bottom: 12px;
+	margin-top: 12px;
 }
 
 .hello-info {
-	display: inline-block;
+	height: 100%;
+	width: 100%;
 }
 
 .hello-name {
+	text-align: center;
 	font-size: 2em;
+	margin-bottom: 12px;
+	margin-top: 12px;
 }
 
 .hello-description {
+	text-align: center;
 	font-size: 1.5em;
+	margin-bottom: 12px;
+	margin-top: 12px;
 }
