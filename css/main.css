@@ -1,0 +1,65 @@
+body {
+	font-family: Oxygen;
+}
+
+section {
+	height: 100vh;
+}
+
+.headbar-border {
+	border-bottom: 1px solid;
+}
+
+.navbar {
+	width: 80%;
+	min-width: 400px;
+	margin: 0px auto 0px auto;
+}
+
+.navbar-left {
+	display: inline-block;
+	font-size: 1.1em;
+}
+
+.navbar-right {
+	display: inline-block;
+	font-size: 1.1em;
+	float: right;
+}
+
+.navbar-right-text li {
+	display: inline;
+	margin: 8px;
+}
+
+.hello {
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin: -100px 0 0 -150px;
+}
+
+.hello-profile-picture {
+	display: inline-block;
+	width: 40%;
+}
+
+.hello-image {
+	width: 100%;
+	height: auto;
+	border-radius: 50%;
+}
+
+.hello-info {
+	display: inline-block;
+}
+
+.hello-name {
+	font-size: 2em;
+}
+
+.hello-description {
+	font-size: 1.5em;
+}
