@@ -22,7 +22,7 @@ section {
 .navbar-left {
 	display: inline-block;
 	font-size: 1.2em;
-	color: #2ecc71;
+	color: #2ECC71;
 }
 
 .navbar-left p:hover {
@@ -150,15 +150,23 @@ section {
 .skills-content-left {
 	display: inline-block;
 	vertical-align: top;
+	max-width: 300px;
+	margin-left: 10%;
 }
 
 .skills-title {
+	font-size: 2.5em;
+	text-align: right;
+	margin-top: 120px;
+	margin-bottom: 10px;
 }
 
-.skills-cell {
+.skills-cell{
 }
 
 .skills-cell-title {
+	font-size: 1.5em;
+	text-align: right;
 }
 
 .skills-cell-meter {
@@ -166,7 +174,9 @@ section {
 
 .skills-content-right {
 	display: inline-block;
+	margin: 0 0 0 8%;
 }
 
 .skills-image {
+	margin-top: 100px;
 }
