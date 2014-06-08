@@ -140,33 +140,33 @@ section {
 }
 
 .skills-content {
-
+	width: 70%;
+	min-width: 700px;
+	margin-left: auto; 
+	margin-right: auto;
+	color: #666666;
 }
 
 .skills-content-left {
-
+	display: inline-block;
+	vertical-align: top;
 }
 
 .skills-title {
-
 }
 
 .skills-cell {
-
 }
 
 .skills-cell-title {
-
 }
 
 .skills-cell-meter {
-
 }
 
 .skills-content-right {
-
+	display: inline-block;
 }
 
 .skills-image {
-
 }
