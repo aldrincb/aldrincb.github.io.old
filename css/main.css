@@ -5,6 +5,7 @@ body {
 
 section {
 	height: 640px;
+	overflow: hidden;
 }
 
 .headbar-border {
@@ -81,9 +82,8 @@ section {
 
 .about {
 	height: 100%;
-	width: 110%;
-	margin: 0 0 0 -5%;
-	background-color: #2ecc71; 
+	width: 100%;
+	background-color: #2ECC71; 
 }
 
 .about-content {
@@ -137,4 +137,36 @@ section {
 
 .about-cell-description {
 	font-size: 1.2em;
+}
+
+.skills-content {
+
+}
+
+.skills-content-left {
+
+}
+
+.skills-title {
+
+}
+
+.skills-cell {
+
+}
+
+.skills-cell-title {
+
+}
+
+.skills-cell-meter {
+
+}
+
+.skills-content-right {
+
+}
+
+.skills-image {
+
 }
