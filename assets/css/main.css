@@ -2393,9 +2393,9 @@
 			-moz-transition: all 0.2s ease;
 			-webkit-transition: all 0.2s ease;
 			-ms-transition: all 0.2s ease;
-			/*transition: all 0.2s ease;*/
+			transition: all 0.2s ease;
 			border-bottom: none;
-			/*display: block;*/
+			display: block;
 			width: 100%;
 			margin: 0 0 2em 0;
 			text-align: center;
