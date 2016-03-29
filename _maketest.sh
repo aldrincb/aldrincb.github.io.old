@@ -1,6 +1,6 @@
 #!/bin/sh
 
-ls './images/japan/fulls/' | egrep '(jpg|png)' |  #filter the content you want in the index
+ls './images/thailand/fulls/' | egrep '(jpg|png)' |  #filter the content you want in the index
 perl -e 'print "
 
 <html>
@@ -13,7 +13,7 @@ perl -e 'print "
 	<body>
 	<div id=\"wrapper\">
 		<header id=\"header\">
-			<h1><b>Japan</b></h1>
+			<h1><b>thailand</b></h1>
 		</header>
 		<section id=\"main\">
 		<section class=\"thumbnails\">
@@ -29,8 +29,8 @@ if ($count%4 == 0) {
 	print "
 
 
-									<a href=\"./images/japan/fulls/$_\">
-										<img src=\"./images/japan/thumbs/$_\" alt=\"\" />
+									<a href=\"./images/thailand/fulls/$_\">
+										<img src=\"./images/thailand/thumbs/$_\" alt=\"\" />
 									</a>
 								
 	";
@@ -44,7 +44,7 @@ print "
 ";
 ' > test.html
 
-ls './images/japan/fulls/' | egrep '(jpg|png)' |  #filter the content you want in the index
+ls './images/thailand/fulls/' | egrep '(jpg|png)' |  #filter the content you want in the index
 perl -e 'print "
 <div>
 ";
@@ -57,8 +57,8 @@ if ($count%4 == 1) {
 	print "
 
 
-									<a href=\"./images/japan/fulls/$_\">
-										<img src=\"./images/japan/thumbs/$_\" alt=\"\" />
+									<a href=\"./images/thailand/fulls/$_\">
+										<img src=\"./images/thailand/thumbs/$_\" alt=\"\" />
 									</a>
 								
 	";
@@ -71,7 +71,7 @@ print "
 
 ";' >> test.html
 
-ls './images/japan/fulls/' | egrep '(jpg|png)' |  #filter the content you want in the index
+ls './images/thailand/fulls/' | egrep '(jpg|png)' |  #filter the content you want in the index
 perl -e 'print "
 <div>
 ";
@@ -84,8 +84,8 @@ if ($count%4 == 2) {
 	print "
 
 
-									<a href=\"./images/japan/fulls/$_\">
-										<img src=\"./images/japan/thumbs/$_\" alt=\"\" />
+									<a href=\"./images/thailand/fulls/$_\">
+										<img src=\"./images/thailand/thumbs/$_\" alt=\"\" />
 									</a>
 								
 	";
@@ -98,7 +98,7 @@ print "
 
 ";' >> test.html
 
-ls './images/japan/fulls/' | egrep '(jpg|png)' |  #filter the content you want in the index
+ls './images/thailand/fulls/' | egrep '(jpg|png)' |  #filter the content you want in the index
 perl -e 'print "
 <div>
 ";
@@ -111,8 +111,8 @@ if ($count%4 == 3) {
 	print "
 
 
-									<a href=\"./images/japan/fulls/$_\">
-										<img src=\"./images/japan/thumbs/$_\" alt=\"\" />
+									<a href=\"./images/thailand/fulls/$_\">
+										<img src=\"./images/thailand/thumbs/$_\" alt=\"\" />
 									</a>
 								
 	";
@@ -126,7 +126,7 @@ print "
 ";' >> test.html
 
 
-ls './images/japan/fulls/' | egrep '(jpg|png)' |  #filter the content you want in the index
+ls './images/thailand/fulls/' | egrep '(jpg|png)' |  #filter the content you want in the index
 perl -e 'print "
 			<script src=\"assets/js/jquery.min.js\"></script>
 			<script src=\"assets/js/jquery.poptrox.min.js\"></script>
